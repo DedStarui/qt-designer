@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'da.ui'
+# Form implementation generated from reading ui file 'di.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.11
 #
@@ -15,8 +15,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(691, 573)
-        MainWindow.setStyleSheet("background-color: rgb(146, 255, 248);\n"
-"background-color: rgb(5, 158, 200);")
+        MainWindow.setStyleSheet("background-color: rgb(189, 173, 132);")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
@@ -28,17 +27,12 @@ class Ui_MainWindow(object):
         self.pushButton.setStyleSheet("\n"
 "background-color: rgb(255, 255, 255);")
         self.pushButton.setObjectName("pushButton")
-        self.toolButton = QtWidgets.QToolButton(self.centralwidget)
-        self.toolButton.setGeometry(QtCore.QRect(430, 30, 251, 131))
-        self.toolButton.setStyleSheet("background-color: rgb(255, 255, 255);")
-        self.toolButton.setText("")
-        self.toolButton.setObjectName("toolButton")
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_3.setGeometry(QtCore.QRect(440, 230, 231, 31))
+        self.pushButton_3.setGeometry(QtCore.QRect(440, 220, 231, 31))
         self.pushButton_3.setStyleSheet("background-color: rgb(255, 255, 255);")
         self.pushButton_3.setObjectName("pushButton_3")
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(440, 280, 231, 31))
+        self.pushButton_2.setGeometry(QtCore.QRect(440, 260, 231, 31))
         self.pushButton_2.setStyleSheet("background-color: rgb(255, 255, 255);")
         self.pushButton_2.setObjectName("pushButton_2")
         self.label = QtWidgets.QLabel(self.centralwidget)
@@ -46,13 +40,8 @@ class Ui_MainWindow(object):
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(20, 330, 81, 16))
-        self.label_2.setStyleSheet("\n"
-"")
+        self.label_2.setStyleSheet("")
         self.label_2.setObjectName("label_2")
-        self.textEdit_2 = QtWidgets.QTextEdit(self.centralwidget)
-        self.textEdit_2.setGeometry(QtCore.QRect(20, 360, 241, 151))
-        self.textEdit_2.setStyleSheet("background-color: rgb(255, 255, 255);")
-        self.textEdit_2.setObjectName("textEdit_2")
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit.setGeometry(QtCore.QRect(280, 490, 311, 31))
         self.lineEdit.setStyleSheet("background-color: rgb(255, 255, 255);")
@@ -69,6 +58,18 @@ class Ui_MainWindow(object):
         self.pushButton_6.setGeometry(QtCore.QRect(280, 420, 311, 51))
         self.pushButton_6.setStyleSheet("background-color: rgb(255, 255, 255);")
         self.pushButton_6.setObjectName("pushButton_6")
+        self.listWidget = QtWidgets.QListWidget(self.centralwidget)
+        self.listWidget.setGeometry(QtCore.QRect(430, 20, 251, 192))
+        self.listWidget.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.listWidget.setObjectName("listWidget")
+        self.listWidget_2 = QtWidgets.QListWidget(self.centralwidget)
+        self.listWidget_2.setGeometry(QtCore.QRect(20, 350, 241, 171))
+        self.listWidget_2.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.listWidget_2.setObjectName("listWidget_2")
+        self.pushButton_7 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_7.setGeometry(QtCore.QRect(440, 300, 231, 31))
+        self.pushButton_7.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.pushButton_7.setObjectName("pushButton_7")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 691, 21))
@@ -94,15 +95,11 @@ class Ui_MainWindow(object):
         self.pushButton_2.setText(_translate("MainWindow", "Зберегти замітку"))
         self.label.setText(_translate("MainWindow", "Список заміток"))
         self.label_2.setText(_translate("MainWindow", "Список тегів"))
-        self.textEdit_2.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
         self.lineEdit.setText(_translate("MainWindow", "Введіть тег..."))
         self.pushButton_4.setText(_translate("MainWindow", "Додати до замітки"))
         self.pushButton_5.setText(_translate("MainWindow", "Відкріпити від заміток"))
         self.pushButton_6.setText(_translate("MainWindow", "Шукати замітки по тегу"))
+        self.pushButton_7.setText(_translate("MainWindow", "Додати замітку"))
 
 
 if __name__ == "__main__":
